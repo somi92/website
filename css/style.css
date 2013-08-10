@@ -1,7 +1,7 @@
-
 body {
 	/*background-image: "/images/img1.jpg"; */
 	background: url(images/img1.jpg) repeat-y;
+	background-attachment: fixed;
 }
 
 
@@ -20,7 +20,9 @@ body {
 	width: 1500px;
 	height: 400px;
 	background-color: white;
+	background: url(images/header.jpg);
 }
+
  #navbar {
  	border: 2px green solid;
 	margin: auto;
@@ -59,7 +61,7 @@ div {
 }
 
 #right_widget {
-	border: 2px violet solid;
+	border: 2px red solid;
 	float: right;
 	position: fixed;
 	height: 300px;
