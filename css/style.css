@@ -19,8 +19,19 @@ body {
 	margin: auto;
 	width: 1500px;
 	height: 400px;
-	background: url(../images/img1.jpg);
+	background: url(../images/header2.jpg);
+	display: none;
 	/*background-image: images/header.jpg;*/
+}
+
+#title {
+	display: none;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Courier;
+	margin-left: 45px;
+	margin-top: 200px;
+	
 }
 
  #navbar {
@@ -37,7 +48,7 @@ body {
 	margin-top: 10px;
 	width: 1500px;
 	height: 1500px;
-	background-color: white;
+	background-color: red;
 }
 
 #footer {
@@ -50,6 +61,7 @@ body {
 }
 
 div {
+	display: none;
 	border-radius: 10px;
 }
 
