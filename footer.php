@@ -1,1 +1,8 @@
-<div id="footer"></div>
+<div id="footer">
+	<p>
+		<?php 
+			echo $footer; 
+		?>
+		
+	</p>
+</div>

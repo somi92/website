@@ -1,5 +1,9 @@
 <div id="header">
-    			<p id="title">Milos Stojanovic, Fakultet organizacionih nauka</p>
+    			<h1 id="title">
+    				<?php
+    				echo $heading;
+					 ?>
+				</h1>
     			<?php
     				include ('nav.php');
 				?>

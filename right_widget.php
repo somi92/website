@@ -1,0 +1,1 @@
+<div id="right_widget"></div>
