@@ -1,10 +1,7 @@
-// $(document).ready(function() {
-	// // $('#header').slideDown('slow');
-	// $("#header").fadeTo('fast', 1);
-// });
+
 $(document).ready(function() {
 	
-	$('div').fadeIn(2500);
+	$('div').fadeIn(3000);
 	
     $('#header').mouseenter(function() {
     	$('#title').fadeTo('slow', 1);

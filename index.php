@@ -6,26 +6,31 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
-        <script type="text/javascript" src="script/script.js"></script>
+        <script type="text/javascript" src="../script/script.js"></script>
         <title>My web page</title>
     </head>
     <body>
     	<div id="wrapper">
-    		<div id="header">
-    			<p id="title">Milos Stojanovic, Fakultet organizacionih nauka</p>
-    			<div id="navbar"></div>
-    		</div>
     		
+    		<?php 
+    		
+    			include('header.php'); 
+    		
+    		?>
+ 
     		<div id="right_widget"></div>
     		
     		<div id="content">
     			
-    			<div id="right_sidebar"></div>
+    			<?php
+    				include ('sidebar.php');
+				?>
     			
     		</div>
     		
-    		
-    		<div id="footer"></div>
+    		<?php
+    			include ('footer.php');
+			?>
     	</div>
         
     </body>
