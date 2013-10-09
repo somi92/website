@@ -3,6 +3,5 @@
 		<?php 
 			echo $footer; 
 		?>
-		
 	</p>
 </div>

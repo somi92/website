@@ -1,7 +1,7 @@
 <div id="navbar">
-    				<div class="nav_buttons"><a href="http://www.google.com">POCETNA</a></div>
-    				<div class="nav_buttons"><a href="http://">INFO</a></div>
-    				<div class="nav_buttons"><a href="http://">PORTFOLIO</a></div>
-    				<div class="nav_buttons"><a href="http://">LINKOVI</a></div>
-    				<div class="nav_buttons"><a href="http://">KONTAKT</a></div>
-    			</div>
+	<a href="index.php"><div id="nav_buttons">POCETNA</div></a>
+	<a href="http://"><div id="nav_buttons">PORTFOLIO</div></a>
+	<a href="about.php"><div id="nav_buttons">FOSS</div></a>
+	<a href="http://"><div id="nav_buttons">LINKOVI</div></a>
+	<a href="http://"><div id="nav_buttons">KONTAKT</div></a>
+</div>
