@@ -1,6 +1,7 @@
 body {
 	/*background-image: "/images/img1.jpg"; */
-	background: url(../images/img1.jpg);
+	/*background: url(../images/systemfaliure.jpg);*/
+	background-color: black;
 	background-attachment: fixed;
 }
 
@@ -15,26 +16,39 @@ body {
 }
 
 #header {
-	border: 2px blue solid;
+	border: 4px #006600 solid;
 	margin: auto;
 	width: 1500px;
 	/*height: 400px;*/
 	height: 200px;
-	background-image: url(../images/header.png);
+	background-color: black;
+	/*background-image: url(../images/header.png);*/
 	/*display: none;*/
 	/*background-image: images/header.jpg;*/
 }
 
 #title {
-	display: none;
-	font-size: 35px;
-	font-weight: bold;
+	/*display: none;*/
+	/*font-size: 35px;*/
+	/*width: 800px;*/
 	font-family: Courier;
+	font-size: 50px;
 	float: left;
 	margin-left: 45px;
-	margin-top: 100px;
-	border: 1px white solid;
+	margin-top: 50px;
+	/*border: 1px white solid;*/
+	color: #006600;
 	
+}
+
+#cursor {
+	/*display: inline;*/
+	font-family: Courier;
+	font-size: 50px;
+	color: #006600;
+	margin-top: 50px;
+	/*border: 1px white solid;*/
+	float: left;
 }
 
  #navbar {
@@ -49,10 +63,10 @@ body {
 
 #content {
 	position: relative;
-	border: 5px green solid;
+	/*border: 5px green solid;*/
 	margin: auto;
 	/*margin-left: 10.5%;*/
-	margin-top: 10px;
+	margin-top: 35px;
 	width: 1500px;
 	/*height: 1500px;*/
 	/*float: left;*/
@@ -62,8 +76,9 @@ body {
 }
 
 #posts_wrapper {
-	border: 3px blue solid;
+	/*border: 3px blue solid;*/
 	width: 1170px;
+	border-right: 2px black dashed;
 	height: 97%;
 	margin: auto;
 	float: left;
@@ -72,7 +87,7 @@ body {
 }
 
 #post {
-	border: 2px red solid;
+	/*border: 2px red solid;*/
 	width: 97%;
 	height: 97%;
 	float: left;
@@ -88,12 +103,12 @@ body {
 }
 
 #footer {
-	border: 2px red solid;
+	border: 4px #006600 solid;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 20px;
 	width: 1500px;
 	height: 100px;
-	background-color: red;
+	background-color: black;
 	clear: both;
 }
 
@@ -103,12 +118,12 @@ div {
 }
 
 #right_sidebar {
-	border: 2px yellow solid;
+	border: 1px black solid;
 	width: 320px;
-	/*height: 97%;*/
+	height: 97%;
 	float: right;
-	height: 100px;
-	background-color: yellow;
+	height: 97%;
+	background-color: white;
 }
 
 #right_widget {
@@ -122,13 +137,13 @@ div {
 #nav_buttons {
 	height: 45px;
 	width: 200px;
-	border: 5px solid black;
+	border: 5px solid #006600;
 	margin-left: 5px;
 	margin-right: 5px;
 	padding: 2px 2px 2px 2px;
 	float: left;
-	background-color: white;
-	border-radius: 10px;
+	background-color: black;
+	border-radius: 25px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
@@ -136,7 +151,8 @@ div {
 }
 
 #nav_buttons:hover {
-	background-color: #FF3333;
+	/*background-color: #FF3333;*/
+	background-color: white;
 }
 
 /*#nav_buttons a {
@@ -147,17 +163,19 @@ div {
 }*/
 
 a {
-	color: black;
+	color: #006600;
 	text-decoration: none;
 }
 
 #footer p {
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	text-align: center;
-	color: white;
-	font-size: 20px;
+	color: #006600;
+	font-size: 25px;
 	font-weight: bold;
 }
+
+
 /*a:link {
 	text-decoration: none;
 }
