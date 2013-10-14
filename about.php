@@ -7,6 +7,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
         <script type="text/javascript" src="script/terminal_title.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
         <title>My web page</title>
     </head>
     <body>

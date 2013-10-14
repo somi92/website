@@ -4,4 +4,5 @@
 			echo $footer; 
 		?>
 	</p>
+	<a href="about.php#expand">VRH STRANICE</a>
 </div>
